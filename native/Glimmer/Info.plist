@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>GlimmerAppStoreID</key><string>$(GLIMMER_APP_STORE_ID)</string>
+    <key>SUFeedURL</key><string>$(GLIMMER_UPDATE_FEED)</string>
+    <key>SUPublicEDKey</key><string>$(GLIMMER_UPDATE_PUBLIC_KEY)</string>
+    <key>SUEnableInstallerLauncherService</key><true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>127.0.0.1</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key><true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>LSApplicationQueriesSchemes</key>
+    <array><string>inkspring</string></array>
+    <key>NSHumanReadableCopyright</key><string>© Protomota Software</string>
+</dict></plist>

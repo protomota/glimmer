@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "plates": [
+    {
+      "id": "ridge",
+      "description": "Golden grass on a ridge above layers of blue mountains.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "coast",
+      "description": "Surf runs between granite ledges on the Maine coast.",
+      "aspectRatio": 2.358491
+    },
+    {
+      "id": "meadow",
+      "description": "A meadow of lupines opens onto green mountain slopes.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "forest",
+      "description": "Light falls through a clearing in a spring beech forest.",
+      "aspectRatio": 2.358491
+    },
+    {
+      "id": "redrock",
+      "description": "Sunlight reaches into a red sandstone canyon.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "street",
+      "description": "Two people walk along a city footbridge in the afternoon light.",
+      "wholeSubject": true,
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "insect",
+      "description": "A damselfly rests on a reed above a pond.",
+      "wholeSubject": true,
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "snow",
+      "description": "Yellow larches stand against snowy evergreens on a mountain pass.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "rabbit",
+      "description": "A cottontail rests in a clearing.",
+      "wholeSubject": true,
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "marsh",
+      "description": "A winding waterway crosses a sunlit salt marsh.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "woods",
+      "description": "Bright leaves and gray trunks recede into a woodland clearing.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "stream",
+      "description": "Water washes over rounded stones in a forest stream.",
+      "aspectRatio": 2.358491
+    },
+    {
+      "id": "falls",
+      "description": "A small waterfall runs over a broad ledge in a wooded gorge.",
+      "aspectRatio": 3.0
+    },
+    {
+      "id": "grass-native",
+      "description": "A breeze passes through a grassy meadow.",
+      "aspectRatio": 1.777778,
+      "video": "v1/grass-native-4009cb16b3cbc91f.mp4",
+      "poster": "v1/grass-native-c4fa1b6dc162af17.jpg",
+      "ambience": "v1/grass-native-a54acff771afee93.m4a"
+    },
+    {
+      "id": "rabbit-native",
+      "description": "A rabbit pauses in the grass and moves its ears.",
+      "wholeSubject": true,
+      "aspectRatio": 1.777778,
+      "video": "v1/rabbit-native-52effd6c2881c636.mp4",
+      "poster": "v1/rabbit-native-b41b19d8cb8b8078.jpg",
+      "ambience": "v1/rabbit-native-79ffb9a8f7b52861.m4a"
+    },
+    {
+      "id": "leaves-native",
+      "description": "Sunlight shifts on leaves stirring in the breeze.",
+      "aspectRatio": 1.777778,
+      "video": "v1/leaves-native-67c24a97191b7061.mp4",
+      "poster": "v1/leaves-native-56524efb065ab711.jpg",
+      "ambience": "v1/leaves-native-f0469fea40fb0b1c.m4a"
+    },
+    {
+      "id": "waterfall-native",
+      "description": "Water spills over a rocky ledge.",
+      "aspectRatio": 1.777778,
+      "video": "v1/waterfall-native-779867c4eb434009.mp4",
+      "poster": "v1/waterfall-native-f3b3944f0271d0b8.jpg",
+      "wholeSubject": true,
+      "ambience": "v1/waterfall-native-2f53dff648dd7836.m4a"
+    },
+    {
+      "id": "citywalk-native",
+      "description": "People pass through a city street.",
+      "wholeSubject": true,
+      "aspectRatio": 1.777778,
+      "poster": "v1/citywalk-native-5c86a08c50e21d7c.jpg"
+    }
+  ]
+}

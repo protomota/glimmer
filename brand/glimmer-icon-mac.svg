@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Glimmer app icon (macOS layout: 824 px rounded square on a 1024 canvas)</title>
+  <!-- Colors match the About panel mark in dark mode (CompanionMark in native/Glimmer/Design.swift):
+       honey #e2ba5e at 28% and accent #9dbbdc at 20% over the surface #212120, ring in accent at 70%. -->
+  <defs>
+    <linearGradient id="bg" x1="100" y1="100" x2="924" y2="924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#574c31"/>
+      <stop offset="1" stop-color="#3a4046"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" fill="none" stroke="#fff" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M305.2 718.8A292.5 292.5 0 1 1 718.8 718.8" fill="none" stroke="#9dbbdc" stroke-opacity="0.7" stroke-width="37.1" stroke-linecap="round"/>
+  <path transform="translate(512 512) scale(136.0)" d="M0 -1C0.2 -0.4 0.4 -0.2 1 0C0.4 0.2 0.2 0.4 0 1C-0.2 0.4 -0.4 0.2 -1 0C-0.4 -0.2 -0.2 -0.4 0 -1Z" fill="#e2ba5e" stroke="#e2ba5e" stroke-width="0.05" stroke-linejoin="round"/>
+</svg>

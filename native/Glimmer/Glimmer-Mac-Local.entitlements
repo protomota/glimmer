@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>com.apple.security.app-sandbox</key><true/>
+    <key>com.apple.security.network.client</key><true/>
+    <key>com.apple.security.network.server</key><true/>
+    <!-- Coach runs the person's own Claude Code, Codex or Gemini CLI, which keep their sign-in in these folders. -->
+    <key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+    <array>
+        <string>/.claude/</string>
+        <string>/.claude.json</string>
+        <string>/.codex/</string>
+        <string>/.gemini/</string>
+        <string>/.antigravity/</string>
+        <string>/.local/</string>
+        <string>/.config/</string>
+        <string>/.npm-global/</string>
+    </array>
+    <key>com.apple.security.temporary-exception.files.absolute-path.read-only</key>
+    <array>
+        <string>/opt/homebrew/</string>
+        <string>/usr/local/</string>
+    </array>
+    <key>com.apple.security.files.user-selected.read-write</key><true/>
+</dict></plist>

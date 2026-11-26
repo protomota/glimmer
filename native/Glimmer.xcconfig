@@ -1,0 +1,43 @@
+PRODUCT_NAME = Glimmer
+PRODUCT_BUNDLE_IDENTIFIER = com.protomota.glimmer
+// Glimmer: Gentle Life Coach on the App Store, for the rating prompt and the Rate row.
+GLIMMER_APP_STORE_ID = 6837750690
+MARKETING_VERSION = 1.1.10
+CURRENT_PROJECT_VERSION = 55
+SUPPORTED_PLATFORMS = macosx iphoneos iphonesimulator
+SDKROOT = auto
+IPHONEOS_DEPLOYMENT_TARGET = 18.0
+MACOSX_DEPLOYMENT_TARGET = 15.0
+TARGETED_DEVICE_FAMILY = 1,2
+SUPPORTS_MACCATALYST = NO
+SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO
+SWIFT_VERSION = 5.0
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_KEY_CFBundleDisplayName = Glimmer
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.lifestyle
+INFOPLIST_KEY_UILaunchScreen_Generation = YES
+INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+INFOPLIST_FILE = Glimmer/Info.plist
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+// The Mac installer window's artwork ships inside the Mac app only (native/installer).
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphone*] = installer-background.tiff AgentSkillInstaller.swift AgentSkillSection.swift AgentSkill.md AgentSkill-LICENSE.txt
+CODE_SIGN_STYLE = Automatic
+// The Mac release script sets this to the Developer ID profile name when it signs manually.
+PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*] = $(GLIMMER_RELEASE_PROFILE)
+// The TestFlight script sets this to the App Store profile name.
+PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*] = $(GLIMMER_IOS_RELEASE_PROFILE)
+DEVELOPMENT_TEAM[config=Release] = 22HV69L32T
+DEVELOPMENT_TEAM[sdk=iphoneos*] = 22HV69L32T
+GLIMMER_MAC_ENTITLEMENTS = Glimmer/Glimmer.entitlements
+GLIMMER_MAC_ENTITLEMENTS[config=Debug] = Glimmer/Glimmer-Mac-Local.entitlements
+CODE_SIGN_ENTITLEMENTS[sdk=macosx*] = $(GLIMMER_MAC_ENTITLEMENTS)
+ENABLE_HARDENED_RUNTIME[sdk=macosx*] = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) @executable_path/../Frameworks
+
+// Mac updates from glimmertoday.ai (Sparkle). The matching private key is in the release Mac's Keychain.
+GLIMMER_UPDATE_FEED[sdk=macosx*] = https:/$()/glimmertoday.ai/updates/appcast.xml
+GLIMMER_UPDATE_PUBLIC_KEY[sdk=macosx*] = om45onKg31JK17EPzqmoFKHqMseRnh+43KR4UPdA3tI=

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Glimmer app icon (full-bleed square, for iPhone, iPad and the web)</title>
+  <!-- Colors match the About panel mark in dark mode (CompanionMark in native/Glimmer/Design.swift):
+       honey #e2ba5e at 28% and accent #9dbbdc at 20% over the surface #212120, ring in accent at 70%. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#574c31"/>
+      <stop offset="1" stop-color="#3a4046"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="0" fill="url(#bg)"/>
+  <path d="M255.0 769.0A363.5 363.5 0 1 1 769.0 769.0" fill="none" stroke="#9dbbdc" stroke-opacity="0.7" stroke-width="46.1" stroke-linecap="round"/>
+  <path transform="translate(512 512) scale(169.0)" d="M0 -1C0.2 -0.4 0.4 -0.2 1 0C0.4 0.2 0.2 0.4 0 1C-0.2 0.4 -0.4 0.2 -1 0C-0.4 -0.2 -0.2 -0.4 0 -1Z" fill="#e2ba5e" stroke="#e2ba5e" stroke-width="0.05" stroke-linejoin="round"/>
+</svg>
