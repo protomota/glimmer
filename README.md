@@ -10,10 +10,10 @@
   <a href="https://glimmertoday.com/download"><strong>Download for Mac</strong></a> ·
   <a href="https://glimmertoday.com">glimmertoday.com</a> ·
   <a href="#build-it-yourself">Build it yourself</a> ·
-  <a href="LICENSE">MIT license</a>
+  <a href="LICENSE">public domain (Unlicense)</a>
 </p>
 
-<p align="center"><sub>Free · macOS 15 or later · iPhone and iPad coming soon · No account · Open source under MIT</sub></p>
+<p align="center"><sub>Free · macOS 15 or later · iPhone and iPad coming soon · No account · Open source, public domain (Unlicense)</sub></p>
 
 ---
 
@@ -83,9 +83,9 @@ Choose the **Glimmer** scheme and run it on My Mac, an iPhone or an iPad simulat
 | `native/Checks`, `native/GlimmerUITests` | Core checks and UI tests |
 | `brand/` | The app icon sources and render script |
 
-## Open source under MIT
+## Open source, public domain (Unlicense)
 
-Glimmer is free, and its source is open under the [MIT license](LICENSE). Use it, change it, ship it, sell it. Third-party packages keep their own licenses.
+Glimmer is free, and its source is open under the [public domain (Unlicense)](LICENSE). Use it, change it, ship it, sell it. Third-party packages keep their own licenses.
 
 [Website](https://glimmertoday.com) · [Help](https://glimmertoday.com/support) · [Send feedback](https://protomota.com/apps?app=glimmer#feedback)
 
@@ -95,7 +95,7 @@ Glimmer is free, and its source is open under the [MIT license](LICENSE). Use it
   <a href="https://protomota.com"><img src="docs/readme/protomota-logo.png" width="40" height="40" alt="Protomota"></a>
 </p>
 
-<p align="center"><strong>Made by <a href="https://protomota.com">Protomota</a>.</strong> Free apps, open source under MIT.</p>
+<p align="center"><strong>Made by <a href="https://protomota.com">Protomota</a>.</strong> Free apps, open source and public domain (Unlicense).</p>
 
 <p align="center">
   <a href="https://opentalon.ai">OpenTalon</a> ·
